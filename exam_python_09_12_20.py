@@ -191,6 +191,7 @@ while (motAEcrire =! motADeviner) and (tours =!9):
     testLettreJaune
 
     tours = tours +1
+    print("fin du tour",tours)
 
 
 
