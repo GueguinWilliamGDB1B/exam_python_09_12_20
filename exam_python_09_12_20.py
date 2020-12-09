@@ -1,10 +1,16 @@
+from colorama import init
+print(Fore.RED + 'some red text', end=" ")
+
+
 tours = 0
 
 motATrouver = 0
 
+motAEcrire = [0,1,2,3,4,5,6,7,8,9]
+motADeviner = [0,1,2,3,4,5,6,7,8,9]
 
-def choixDuMot (motADeviner,aleatoire):
-    motADeviner = [0,1,2,3,4,5,6,7,8,9]
+def choixDuMot (motADeviner[],aleatoire):
+    
     aleatoire = 0
     aleatoire = random.randint(0,101)
     print(aleatoire)
@@ -139,7 +145,12 @@ def choixDuMot (motADeviner,aleatoire):
         print(motADeviner)
         return(motADeviner)    
        
-    
+
+def testLettreRouge(motADeviner, motAEcrire):
+    for i in range (motADeviner[0,9]):
+        for j in range (motAEcrire[0,9]):
+            if (motADeviner[i] = motAEcrire[j]):
+                print(motAEcrire[j] \ 033 [31m)
     
     
     
@@ -148,5 +159,29 @@ def choixDuMot (motADeviner,aleatoire):
 print("Motus")
 print("Un mot de 10 lettres a été choisis au hasard, devinez le!")
 choixDuMot.motATrouver
+print("Veuillez entrer la lettre 1")
+motAEcrire[0] =int(input)
+print("Veuillez entrer la lettre 2")
+motAEcrire[1] =int(input)
+print("Veuillez entrer la lettre 3")
+motAEcrire[2] =int(input)
+print("Veuillez entrer la lettre 4")
+motAEcrire[3] =int(input)
+print("Veuillez entrer la lettre 5")
+motAEcrire[4] =int(input)
+print("Veuillez entrer la lettre 6")
+motAEcrire[5] =int(input)
+print("Veuillez entrer la lettre 7")
+motAEcrire[6] =int(input)
+print("Veuillez entrer la lettre 8")
+motAEcrire[7] =int(input)
+print("Veuillez entrer la lettre 9")
+motAEcrire[8] =int(input)
+print("Veuillez entrer la lettre 10")
+motAEcrire[9] =int(input)
+print motAEcrire[]
+
+
+
 
 input()
