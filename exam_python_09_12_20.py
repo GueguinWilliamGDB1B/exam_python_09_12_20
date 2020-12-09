@@ -150,37 +150,43 @@ def testLettreRouge(motADeviner, motAEcrire):
     for i in range (motADeviner[0,9]):
         for j in range (motAEcrire[0,9]):
             if (motADeviner[i] = motAEcrire[j]):
-                print(motAEcrire[j] \ 033 [31m)
+                print((Fore.RED + motAEcrire[], end=" ")
     
-    
+def testLettreJaune(motADeviner, motAEcrire):
+    for i in range (motADeviner[0,9]):
+        for j in range (motAEcrire[0,9]):
+            if (motADeviner[i] =! motAEcrire[j]):
+                 print((Fore.YELLOW + motAEcrire[J], end=" ")
     
     
     
 print("Motus")
 print("Un mot de 10 lettres a été choisis au hasard, devinez le!")
 choixDuMot.motATrouver
-print("Veuillez entrer la lettre 1")
-motAEcrire[0] =int(input)
-print("Veuillez entrer la lettre 2")
-motAEcrire[1] =int(input)
-print("Veuillez entrer la lettre 3")
-motAEcrire[2] =int(input)
-print("Veuillez entrer la lettre 4")
-motAEcrire[3] =int(input)
-print("Veuillez entrer la lettre 5")
-motAEcrire[4] =int(input)
-print("Veuillez entrer la lettre 6")
-motAEcrire[5] =int(input)
-print("Veuillez entrer la lettre 7")
-motAEcrire[6] =int(input)
-print("Veuillez entrer la lettre 8")
-motAEcrire[7] =int(input)
-print("Veuillez entrer la lettre 9")
-motAEcrire[8] =int(input)
-print("Veuillez entrer la lettre 10")
-motAEcrire[9] =int(input)
-print motAEcrire[]
+while (motAEcrire =! motADeviner):
+    print("Veuillez entrer la lettre 1")
+    motAEcrire[0] =int(input)
+    print("Veuillez entrer la lettre 2")
+    motAEcrire[1] =int(input)
+    print("Veuillez entrer la lettre 3")
+    motAEcrire[2] =int(input)
+    print("Veuillez entrer la lettre 4")
+    motAEcrire[3] =int(input)
+    print("Veuillez entrer la lettre 5")
+    motAEcrire[4] =int(input)
+    print("Veuillez entrer la lettre 6")
+    motAEcrire[5] =int(input)
+    print("Veuillez entrer la lettre 7")
+    motAEcrire[6] =int(input)
+    print("Veuillez entrer la lettre 8")
+    motAEcrire[7] =int(input)
+    print("Veuillez entrer la lettre 9")
+    motAEcrire[8] =int(input)
+    print("Veuillez entrer la lettre 10")
+    motAEcrire[9] =int(input)
+    print motAEcrire[]
 
+testLettreRouge
 
 
 
