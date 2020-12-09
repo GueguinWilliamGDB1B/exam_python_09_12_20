@@ -1,6 +1,7 @@
-from colorama import init
-print(Fore.RED + 'some red text', end=" ")
-
+from colorama import init 
+init()
+from colorama import Fore, Back, Style
+import random
 
 tours = 0
 
@@ -163,7 +164,7 @@ def testLettreJaune(motADeviner, motAEcrire):
 print("Motus")
 print("Un mot de 10 lettres a été choisis au hasard, devinez le!")
 choixDuMot.motATrouver
-while (motAEcrire =! motADeviner):
+while (motAEcrire =! motADeviner) and (tours =!9):
     print("Veuillez entrer la lettre 1")
     motAEcrire[0] =int(input)
     print("Veuillez entrer la lettre 2")
@@ -186,7 +187,10 @@ while (motAEcrire =! motADeviner):
     motAEcrire[9] =int(input)
     print motAEcrire[]
 
-testLettreRouge
+    testLettreRouge
+    testLettreJaune
+
+    tours = tours +1
 
 
 
